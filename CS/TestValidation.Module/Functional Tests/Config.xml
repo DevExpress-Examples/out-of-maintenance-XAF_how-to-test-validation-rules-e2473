@@ -5,23 +5,23 @@
 		<Application
 			Name="TestValidationWin"
 			FileName="[ConfigPath]\..\..\TestValidation.Win\Bin\EasyTest\TestValidation.Win.exe"
-			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WinAdapter.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WinAdapter.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 			CommunicationPort="4100"/>
 		<Application
 			Name="TestValidationWinNoWindowsFormsValidationModule"
 			FileName="[ConfigPath]\..\..\TestValidation.Win.NoWindowsFormsValidationModule\Bin\EasyTest\TestValidation.Win.exe"
-			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WinAdapter.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WinAdapter.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 			CommunicationPort="4100"/>
 		<!-- Web -->
 		<Application
 			Name="TestValidationWeb"
 			Url="http://localhost:4030"
 			PhysicalPath="[ConfigPath]\..\..\TestValidation.Web"
-			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WebAdapter.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"/>
+			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WebAdapter.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"/>
 		<!-- For IIS -->
 		<!--Application
 			Name="TestValidationWeb"
 			Url="http://localhost/TestValidation.Web/Default.aspx"
-			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WebAdapter.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"/-->
+			AdapterAssemblyName="DevExpress.ExpressApp.EasyTest.WebAdapter.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"/-->
 	</Applications>
 </Options>
